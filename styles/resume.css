@@ -1,0 +1,17 @@
+/* 
+.custom-list li .icon {
+    position: absolute;
+    left: 0; /* Align the icon to the left
+    top: 50%; /* Center the icon vertically
+    transform: translateY(-50%);
+    width: 16px; /* Adjust the width
+    height: 16px; /* Adjust the height
+    object-fit: contain; /* Ensure the image fits properly
+}
+ */
+
+.img {
+    height: 1rem;
+    width: 1rem;
+    object-fit: contain;
+}
