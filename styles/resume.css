@@ -10,8 +10,48 @@
 }
  */
 
+@font-face {
+    font-family: 'rockwell';
+    src: url('/fonts/ROCK.TTF');
+}
+
+@font-face {
+    font-family: 'rockwell-bold';
+    src: url('/fonts/Rockwell-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'calibri';
+    src: url('/fonts/calibri-regular.ttf');
+}
+
+h1, h2, h3 {
+    font-family: rockwell-bold;
+}
+
+li, p {
+    font-family: calibri;
+    color: #595959;
+}
+
 .img {
     height: 1rem;
     width: 1rem;
     object-fit: contain;
 }
+
+.sub-header {
+    color: #007FAB;
+    font-weight: bold;
+}
+
+.sub-header-alt {
+    color: #595959;
+    font-weight: bold;
+}
+
+hr .break {
+    border-top: 1px solid #595959;
+}
+
+
