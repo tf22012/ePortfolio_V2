@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'jura';
+    src: url('/fonts/Jura-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'jura-bold';
+    src: url('/fonts/Jura-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'jura-light';
+    src: url('/fonts/Jura-Light.ttf');
+}
+
+.jura {
+    font-family: 'jura';
+}
+
+.jura-bold {
+    font-family: 'jura-bold';
+}
+
+.jura-light {
+    font-family: 'jura-light';
+}
+
+.accordion-button {
+    font-size: 24px !important;
+}
+
+.accordion,
+.accordion-item,
+.accordion-header,
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:not(.collapsed)
+.accordion-collapse {
+    border-radius: 0 0 0.25rem 0.25rem !important;
+    border: #dee2e6 none 4px !important;
+    box-shadow: none !important;
+}
