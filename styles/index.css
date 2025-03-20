@@ -13,9 +13,24 @@
     src: url('/fonts/Jura-Light.ttf');
 }
 
+.jura {
+    font-family: 'jura';
+}
+
+.jura-bold {
+    font-family: 'jura-bold';
+}
+
+.jura-light {
+    font-family: 'jura-light';
+}
+
 h1 a {
-    font-family: 'jura-bold', sans-serif;
     text-decoration: none;
+}
+
+h2 {
+    color: white;
 }
 
 .nav-link {
@@ -73,4 +88,28 @@ h1 a {
     background-color: #ACBBCB;
 }
 
+/* Cursor */
+.typed-cursor {
+    color: white;
+}
 
+/* If fade out option is set */
+.typed-fade-out {
+}
+
+.container .row .intro-container .skill-container {
+    font-size: 3.5rem;
+}
+
+.skills {
+    font-family: 'jura-bold';
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.resume-hyperlink {
+    color: white;
+}

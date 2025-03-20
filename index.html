@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris Charles</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="/styles/index.css" rel="stylesheet" />
+    <link href="/styles/index.css" rel="stylesheet">
+    <link href="/styles/card.css" rel="stylesheet">
 </head>
 <body class="body-background">
 
@@ -13,7 +14,7 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 header-footer-background">
             <div class="container">
                 <!-- Brand Title -->
-                <h1><a class="nav-link" href="index.html">Christopher Charles</a></h1>
+                <h1><a class="nav-link jura-bold" href="index.html">Christopher Charles</a></h1>
 
                 <!-- Hamburger button (for toggling navbar collapse on smaller screens) -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -25,13 +26,153 @@
     </header>
 
     <div class="container">
+        <!-- Self Introduction -->
         <div class="row">
-            <div class="col-6 d-flex justify-content-center img-container">
+            <div class="col-md-6 d-flex justify-content-center img-container">
                 <img class="img img-fluid" src="/images/professional_headshot.png" alt="Self Portrait" />
             </div>
-            <div class="col-6 p-5 intro-container ">
-                <h2>Placeholder</h2>
+            <div class="col-md-6 p-5 intro-container d-flex flex-column">
+                <h2 class="jura">
+                    I'm an IT Programming NSCC graduate. I'm looking to become a software developer, I have a variety of skills and knowledge in
+                </h2>
+                <h2 class="mt-4 skill-container"><span class="skills"></span></h2>
+            
+                <!-- Push "My Resume" to the bottom -->
+                <div class="d-flex flex-row mt-auto">
+                    <h2 class="ms-auto jura"><a href="resume.html" class="resume-hyperlink">My Resume <img src="/images/resume-edit.png" alt="Resume Icon" class="icon" /></a></h2>
+                </div>
             </div>
+            
+        </div>
+
+        <!-- Project Cards -->
+        <div class="row justify-content-around my-3">
+            
+            <!-- Kotlin Bus Tracker Prototype Card -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/bustracker-edit.png" alt="Chart of bus routes in Kotlin bus tracking application">
+                    <div class="card-body p-0">
+                        <div class="accordion" id="accordionKotlinApp">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header jura" id="busTrackerHeading">
+                                    <button class="accordion-button collapsed" type="button" 
+                                        data-bs-toggle="collapse" 
+                                        data-bs-target="#busTrackerCollapse" 
+                                        aria-expanded="false" 
+                                        aria-controls="busTrackerCollapse">
+                                        Kotlin Bus-Tracker
+                                    </button>
+                                </h2>
+                                <div id="busTrackerCollapse" class="accordion-collapse collapse" 
+                                    aria-labelledby="busTrackerHeading" 
+                                    data-bs-parent="#accordionKotlinApp">
+                                    <div class="accordion-body jura-light">
+                                        In my mobile app development course, I developed a bus tracking application
+                                        for android platforms using Halifax Transit's real-time API similar to other
+                                        transit APIs such as the city of Toronto's. This project helped build my
+                                        familiarity with reading and utilizing API systems in mobile development. 
+                                        The primary goal was to create a user-friendly application with smooth 
+                                        navigation and an intuitive interface while adhering to modern coding 
+                                        practices. The app was built using Kotlin, Android Studio, and with MapBox 
+                                        to provide an interactive map for tracking buses in real time using popular 
+                                        development languages, tools, and software.
+                                        <div class="d-flex flex-row jura">
+                                            <a class="ms-auto" href="/work-samples/Kotlin-WorkSample.pdf">
+                                                Learn More.
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Chinook Music Store Prototype Card -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/chinookmusicstore-edit.png" alt="A picture of a prototype music store application">
+                    <div class="card-body p-0">
+                        <div class="accordion" id="accordionChinookMusicApp">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header jura" id="chinookMusicStoreHeading">
+                                    <button class="accordion-button collapsed" type="button" 
+                                        data-bs-toggle="collapse" 
+                                        data-bs-target="#musicStoreCollapse" 
+                                        aria-expanded="false" 
+                                        aria-controls="musicStoreCollapse">
+                                        Chinook Music Store
+                                    </button>
+                                </h2>
+                                <div id="musicStoreCollapse" class="accordion-collapse collapse" 
+                                    aria-labelledby="chinookMusicStoreHeading" 
+                                    data-bs-parent="#accordionChinookMusicApp">
+                                    <div class="accordion-body jura-light">
+                                        In my Windows Programming in C# course, I was tasked with developing a concept 
+                                        music store using the WPF Application framework. This was to help learn about 
+                                        XAML and build upon my C# knowledge in topics such as events/event handlers, 
+                                        databinding, and LINQ queries. For this project, I utilized the Chinook database 
+                                        as a backend, enabling my app to display information about Artists, Albums, 
+                                        Tracks, Music Catalogs, and Customer Orders. I implemented data retrieval using 
+                                        Entity Framework and leveraged WPF's data binding capabilities to dynamically 
+                                        display and update content in the user interface. This was my first big project 
+                                        developing a WPF application and I learned a lot about XAML and C#.
+                                        <div class="d-flex flex-row jura">
+                                            <a class="ms-auto" href="/work-samples/Chinook-WorkSample.pdf">
+                                                Learn More.
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Chris's Card Collective Prototype Card -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/chriscardcollective-edit.png" alt="A picture of a prototype card store web-application">
+                    <div class="card-body p-0">
+                        <div class="accordion" id="accordionCardWebApp">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header jura" id="magicCardStoreHeading">
+                                    <button class="accordion-button collapsed" type="button" 
+                                        data-bs-toggle="collapse" 
+                                        data-bs-target="#cardStoreCollapse" 
+                                        aria-expanded="false" 
+                                        aria-controls="cardStoreCollapse">
+                                        Chris's Card Collective
+                                    </button>
+                                </h2>
+                                <div id="cardStoreCollapse" class="accordion-collapse collapse" 
+                                    aria-labelledby="magicCardStoreHeading" 
+                                    data-bs-parent="#accordionCardWebApp">
+                                    <div class="accordion-body jura-light">
+                                        For my Web Application Programming course, I was tasked with developing a web 
+                                        application using the ASP.NET Razor Pages framework, with SQLite as the backend 
+                                        database engine. In this project, I learned how to implement backend functionality, 
+                                        primarily CRUD operations, and integrate them into my web application. For this 
+                                        project, we had to follow predetermined requirements, but the site's theme and 
+                                        topic were open-ended. I chose to develop an online marketplace where users could 
+                                        create accounts.  As a test case, I decided to put the project theme around users
+                                        creating an account and selling Magic The Gathering cards.
+                                        <div class="d-flex flex-row jura">
+                                            <a class="ms-auto" href="/work-samples/ChrisCardCollective-WorkSample.pdf">
+                                                Learn More.
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
         </div>
     </div>
 
@@ -41,6 +182,8 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
 </html>

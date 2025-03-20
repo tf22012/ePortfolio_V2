@@ -55,3 +55,10 @@ hr .break {
 }
 
 
+.white {
+    color: white;
+}
+
+.white-background {
+    background-color: white;
+}

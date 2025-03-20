@@ -1,0 +1,30 @@
+var typed = new Typed(".skills", {
+    strings: [
+        "JavaScript", 
+        "SQL",
+        "HTML", 
+        "CSS", 
+        "Bootstrap", 
+        "UX & UI Design",
+        "Windows",
+        "Linux", 
+        "Java", 
+        "C", 
+        "React", 
+        "ASP.NET", 
+        "Razor Pages",
+        "Expo", 
+        "Next JS", 
+        "Node",
+        "C#", 
+        "Kotlin", 
+        "C++", 
+        "AI Pipelines",
+        "XAML", 
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+    cursorChar: '▮'
+})
+
