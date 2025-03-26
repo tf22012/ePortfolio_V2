@@ -12,17 +12,17 @@
 
 @font-face {
     font-family: 'rockwell';
-    src: url('/fonts/ROCK.TTF');
+    src: url('../fonts/ROCK.TTF');
 }
 
 @font-face {
     font-family: 'rockwell-bold';
-    src: url('/fonts/Rockwell-Bold.ttf');
+    src: url('../fonts/Rockwell-Bold.ttf');
 }
 
 @font-face {
     font-family: 'calibri';
-    src: url('/fonts/calibri-regular.ttf');
+    src: url('../fonts/calibri-regular.ttf');
 }
 
 h1, h2, h3 {

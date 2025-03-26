@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'jura';
-    src: url('/fonts/Jura-Regular.ttf');
+    src: url('../fonts/Jura-Regular.ttf');
 }
 
 @font-face {
     font-family: 'jura-bold';
-    src: url('/fonts/Jura-Bold.ttf');
+    src: url('../fonts/Jura-Bold.ttf');
 }
 
 @font-face {
     font-family: 'jura-light';
-    src: url('/fonts/Jura-Light.ttf');
+    src: url('../fonts/Jura-Light.ttf');
 }
 
 .jura {
